@@ -8,7 +8,7 @@
 
     apt install php-curl php-gd php-mbstring php-xml php-xmlrpc php-soap php-intl php-zip
 
-![Texto alternativo](Captura12.png)
+![Texto alternativo](/img/Captura12.png)
 
 ## Paso 2: Creación y configuración de la base de datos
 
@@ -37,7 +37,7 @@ Limpia los privilegios para que surtan efecto.
 
     FLUSH PRIVILEGES;
 
-![Texto alternativo](Captura13.png)
+![Texto alternativo](/img/Captura13.png)
 
 Sal de MySQL.
 
@@ -55,7 +55,7 @@ Dentro del bloque VirtualHost, añade las siguientes directivas:
             AllowOverride All
         </Directory>
 
-![Texto alternativo](Captura14.png)
+![Texto alternativo](/img/Captura14.png)
 
 Activa el mod_rewrite de Apache2.
 
@@ -75,7 +75,7 @@ Descarga WordPress desde su sitio oficial.
 
     wget https://es.wordpress.org/latest-es_ES.zip -P /tmp
 
-![Texto alternativo](Captura16.png)
+![Texto alternativo](/img/Captura16.png)
 
 Descomprime el archivo descargado.
 
@@ -85,7 +85,7 @@ Mueve los archivos de WordPress al directorio raíz del servidor web (/var/www/h
 
         mv -f /tmp/wordpress/* /var/www/html
 
-![Texto alternativo](paso17.png)
+![Texto alternativo](/img/paso17.png)
 
 Cambia el propietario del directorio raíz de WordPress al usuario y grupo www-data.
 
