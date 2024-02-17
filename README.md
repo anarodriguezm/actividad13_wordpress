@@ -99,4 +99,4 @@ Termina de configurar WordPress a través de un navegador web. Abre un navegador
 
     http://localhost/
 
-![Texto alternativo](cap4.png)
+![Texto alternativo](/img/cap4.png)
