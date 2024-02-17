@@ -85,7 +85,7 @@ Mueve los archivos de WordPress al directorio raíz del servidor web (/var/www/h
 
         mv -f /tmp/wordpress/* /var/www/html
 
-![Texto alternativo](/img/paso17.png)
+![Texto alternativo](/img/Paso17.png)
 
 Cambia el propietario del directorio raíz de WordPress al usuario y grupo www-data.
 
@@ -99,4 +99,4 @@ Termina de configurar WordPress a través de un navegador web. Abre un navegador
 
     http://localhost/
 
-![Texto alternativo](/img/cap4.png)
+![Texto alternativo](/img/Cap4.png)
